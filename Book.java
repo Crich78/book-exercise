@@ -14,6 +14,7 @@ class Book
     public int pages;
     public String refNumber;
     int borrowed;
+    boolean courseText;
     
 
     /**
@@ -66,6 +67,12 @@ class Book
         {
          System.out.println("Your reference number needs to be at least 3 characters long!");   
         }
+    }
+    
+    public void isCourseText()
+    {
+        courseText = false;
+        
     }
     
     public void printAuthor()
