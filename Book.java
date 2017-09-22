@@ -75,13 +75,13 @@ class Book
         System.out.println("Author: " + author);
         System.out.println("Pages: " + pages);
     
-        if (refNumber.length() >0)
+        if (refNumber.length() >= 3)
         {
             System.out.println("Reference Number: " + refNumber);
         }
         else 
         {
-            System.out.println("Reference Number: ZZZ");
+            System.out.println("Your reference number is invalid!");
         }
     
     }
